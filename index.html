@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Vinayak Sulegai - Senior Azure Cloud Architect specializing in Azure Landing Zones, Cloud Networking, Security, Terraform, and Infrastructure Architecture. Open to international relocation and employer-sponsored opportunities.">
+<meta name="author" content="Vinayak Sulegai">
+<title>Vinayak Sulegai | Senior Azure Cloud Architect</title>
+
+<style>
+:root {
+  --bg: #f6f8fa;
+  --surface: #fff;
+  --ink: #14202b;
+  --muted: #5a6773;
+  --line: #d9e0e6;
+  --accent: #0b5cad;
+  --tag: #e6f0fa;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 15px/1.6 "Segoe UI", Arial, sans-serif;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+a:hover { text-decoration: underline; }
+
+.wrap {
+  max-width: 960px;
+  margin: auto;
+  padding: 32px 20px 56px;
+}
+
+header {
+  border-left: 6px solid var(--accent);
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.3rem;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.role {
+  font-size: 1.12rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin: 7px 0 12px;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 17px;
+  color: var(--muted);
+  font-size: .92rem;
+}
+
+section {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 21px 25px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1.17rem;
+  margin: 0 0 13px;
+  padding-bottom: 7px;
+  border-bottom: 2px solid var(--line);
+  color: var(--accent);
+}
+
+h3 {
+  font-size: 1.03rem;
+  margin: 0;
+}
+
+p { margin: 7px 0; }
+
+.job { margin-bottom: 21px; }
+.job:last-child { margin-bottom: 0; }
+
+.jobhead {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 16px;
+}
+
+.date {
+  color: var(--muted);
+  font-size: .91rem;
+}
+
+.title {
+  color: var(--accent);
+  font-weight: 600;
+  margin: 3px 0 8px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+li { margin-bottom: 5px; }
+
+.skills {
+  display: grid;
+  grid-template-columns: 195px 1fr;
+  gap: 9px 17px;
+  margin: 0;
+}
+
+.skills dt { font-weight: 600; }
+.skills dd {
+  margin: 0;
+  color: var(--muted);
+}
+
+.certs {
+  columns: 2;
+  column-gap: 25px;
+  list-style: none;
+  padding: 0;
+}
+
+.certs li {
+  break-inside: avoid;
+  padding-left: 21px;
+  position: relative;
+}
+
+.certs li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.visa {
+  background: var(--tag);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 15px 18px;
+}
+
+.visa p { margin: 4px 0; }
+
+.note {
+  color: var(--muted);
+  font-size: .88rem;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: .85rem;
+  margin-top: 22px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1720;
+    --surface: #16212c;
+    --ink: #e8eef3;
+    --muted: #9aa8b5;
+    --line: #27384a;
+    --accent: #6cb2ff;
+    --tag: #1b2e44;
+  }
+}
+
+@media (max-width: 640px) {
+  h1 { font-size: 1.85rem; }
+
+  .skills {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .skills dd { margin-bottom: 9px; }
+
+  .certs { columns: 1; }
+
+  section { padding: 17px; }
+}
+
+@media print {
+  @page { size: A4; margin: 12mm; }
+
+  :root {
+    --bg: #fff;
+    --surface: #fff;
+    --ink: #14202b;
+    --muted: #444;
+    --line: #ccc;
+    --accent: #174e80;
+    --tag: #f2f5f8;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 10pt;
+  }
+
+  .wrap {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  section {
+    box-shadow: none;
+    break-inside: auto;
+    padding: 13px 16px;
+    margin-bottom: 10px;
+  }
+
+  .job {
+    break-inside: avoid;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  header { break-after: avoid; }
+
+  footer { display: none; }
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Vinayak Sulegai</h1>
+
+  <p class="role">
+    Senior Azure Cloud Architect |
+    Cloud Infrastructure, Networking &amp; Security
+  </p>
+
+  <div class="contact">
+    <span>Bengaluru, India</span>
+    <a href="tel:+919901516535">+91 9901516535</a>
+    <a href="mailto:viny022in@gmail.com">viny022in@gmail.com</a>
+    <a href="https://linkedin.com/in/vinayak-sulegai-14a83562">LinkedIn Profile</a>
+    <a href="https://github.com/viny080in">GitHub Profile</a>
+  </div>
+</header>
+
+<section>
+  <h2>International Mobility &amp; Visa Sponsorship</h2>
+
+  <div class="visa">
+    <p><strong>Current Location:</strong> Bengaluru, India</p>
+    <p><strong>International Relocation:</strong> Open to international relocation for suitable opportunities.</p>
+    <p><strong>Visa Sponsorship:</strong> Require employer-sponsored work authorization for employment in countries where I do not currently hold work authorization.</p>
+    <p><strong>Employment Preference:</strong> Open to permanent, full-time international opportunities.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Professional Summary</h2>
+
+  <p>
+    Senior Azure Cloud Architect with 12+ years of IT infrastructure
+    experience and 7+ years of hands-on Azure experience, specializing
+    in Azure Landing Zone architecture, Cloud Adoption Framework (CAF),
+    cloud infrastructure, networking, and security.
+  </p>
+
+  <p>
+    Experienced in designing, implementing, and automating secure,
+    compliant, scalable, and cost-optimized cloud environments using
+    Terraform, Bicep, PowerShell, Azure CLI, and Azure DevOps.
+    Strong technical expertise in Azure Firewall, ExpressRoute,
+    VPN Gateway, Virtual Networks, Private Endpoints, and hybrid
+    connectivity.
+  </p>
+
+  <p>
+    Experienced in cloud governance, infrastructure automation,
+    security monitoring, Microsoft Sentinel, Defender XDR,
+    disaster recovery, and enterprise IT operations.
+    Also experienced in Scrum facilitation and cross-functional
+    team coordination.
+  </p>
+</section>
+
+<section>
+  <h2>Core Technical Skills</h2>
+
+  <dl class="skills">
+
+    <dt>Cloud Architecture</dt>
+    <dd>
+      Microsoft Azure, IaaS, PaaS, Azure Landing Zones,
+      Cloud Adoption Framework (CAF), Cloud Governance,
+      Azure Policy, Azure Resource Management
+    </dd>
+
+    <dt>Azure Networking</dt>
+    <dd>
+      Azure Firewall, Network Security Groups (NSG),
+      ExpressRoute, VPN Gateway, VNet Peering,
+      User Defined Routes (UDR), Private Endpoints,
+      Application Gateway, Load Balancer,
+      Azure Front Door, DNS
+    </dd>
+
+    <dt>Cloud Security</dt>
+    <dd>
+      Microsoft Defender XDR, Microsoft Sentinel,
+      Security Monitoring, Threat Detection,
+      Incident Response, Security Governance
+    </dd>
+
+    <dt>Infrastructure as Code</dt>
+    <dd>
+      Terraform, Bicep, ARM Templates,
+      Infrastructure Automation, PowerShell,
+      Azure CLI, Shell Scripting
+    </dd>
+
+    <dt>DevOps &amp; Automation</dt>
+    <dd>
+      Azure DevOps, Deployment Automation,
+      Infrastructure Provisioning, CI/CD concepts,
+      Reusable Infrastructure Templates
+    </dd>
+
+    <dt>Azure PaaS &amp; Containers</dt>
+    <dd>
+      Azure App Services, Logic Apps, Function Apps,
+      Azure SQL, Key Vault, AKS, ACR, Docker
+    </dd>
+
+    <dt>Monitoring &amp; Observability</dt>
+    <dd>
+      Azure Monitor, Log Analytics, Application Insights,
+      Grafana, Kusto Query Language (KQL), Alerting
+    </dd>
+
+    <dt>Cloud Operations</dt>
+    <dd>
+      Cost Optimization, Disaster Recovery,
+      Incident Management, Problem Management,
+      Change Management, ITIL, Agile, Scrum
+    </dd>
+
+    <dt>Leadership &amp; Delivery</dt>
+    <dd>
+      Scrum Facilitation, Cross-functional Collaboration,
+      Stakeholder Coordination, Technical Troubleshooting,
+      Infrastructure Project Delivery
+    </dd>
+
+  </dl>
+</section>
+
+<section>
+  <h2>Professional Experience</h2>
+
+  <div class="job">
+
+    <div class="jobhead">
+      <h3>Tata Consultancy Services (TCS), Bangalore</h3>
+      <span class="date">June 2022 – Present</span>
+    </div>
+
+    <div class="title">
+      Senior Azure Cloud &amp; Networking Engineer
+    </div>
+
+    <ul>
+      <li>
+        Architected and deployed Azure Landing Zones aligned
+        with Microsoft's Cloud Adoption Framework (CAF),
+        establishing secure, policy-governed, and compliant
+        foundations for enterprise workloads.
+      </li>
+
+      <li>
+        Automated Azure Firewall, Network Security Groups,
+        and VPN Gateway configurations, reducing manual
+        operational effort by 40%.
+      </li>
+
+      <li>
+        Standardized Azure infrastructure deployments using
+        Terraform and PowerShell, improving consistency,
+        repeatability, and deployment reliability.
+      </li>
+
+      <li>
+        Maintained a compliance score above 85% through
+        identification, assessment, and remediation
+        of security vulnerabilities.
+      </li>
+
+      <li>
+        Implemented monitoring and observability dashboards
+        using Log Analytics, Application Insights, and Grafana,
+        enabling proactive monitoring and faster issue detection.
+      </li>
+
+      <li>
+        Served as Scrum Master for cross-functional infrastructure,
+        networking, and development teams, facilitating sprint
+        planning, daily stand-ups, and retrospectives while
+        removing delivery blockers.
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="job">
+
+    <div class="jobhead">
+      <h3>IBM / Kyndryl Solutions Pvt. Ltd., Bangalore</h3>
+      <span class="date">April 2016 – June 2022</span>
+    </div>
+
+    <div class="title">
+      Technical Services Specialist
+    </div>
+
+    <ul>
+      <li>
+        Implemented secure Azure networking and PaaS environments
+        for multiple enterprise customers.
+      </li>
+
+      <li>
+        Automated Service Principal (SPN) and Azure resource
+        lifecycle management, improving operational efficiency
+        by 25%.
+      </li>
+
+      <li>
+        Developed reusable Terraform and Bicep templates
+        to standardize cloud infrastructure deployments
+        across customer environments.
+      </li>
+
+      <li>
+        Managed Azure infrastructure incidents and resolved
+        critical issues within SLA requirements, improving
+        service reliability and operational continuity.
+      </li>
+
+      <li>
+        Applied ITIL incident and problem management practices
+        to prevent recurring issues and improve operational
+        knowledge documentation.
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="job">
+
+    <div class="jobhead">
+      <h3>Amicorp Management India Pvt. Ltd., Bangalore</h3>
+      <span class="date">April 2014 – April 2016</span>
+    </div>
+
+    <div class="title">
+      Helpdesk Administrator
+    </div>
+
+    <ul>
+      <li>
+        Supported IT infrastructure operations,
+        user provisioning, end-user support,
+        and on-premises to Azure migration activities.
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+<section>
+  <h2>Certifications &amp; Professional Credentials</h2>
+
+  <ul class="certs">
+
+    <li>Microsoft Certified: Azure Solutions Architect Expert (AZ-305)</li>
+
+    <li>Microsoft Certified: Cybersecurity Architect Expert (SC-100)</li>
+
+    <li>Microsoft Certified: DevOps Engineer Expert (AZ-400)</li>
+
+    <li>Microsoft Certified: Azure Network Engineer Associate (AZ-700)</li>
+
+    <li>Microsoft Certified: Security Operations Analyst Associate (SC-200)</li>
+
+    <li>Microsoft Certified: Azure Developer Associate (AZ-204)</li>
+
+    <li>Microsoft Certified: Azure AI Apps and Agents Developer Associate (AI-103)</li>
+
+    <li>GitHub Agentic AI Developer (GH-600)</li>
+
+    <li>IBM Cloud Private – Infrastructure &amp; Architecture</li>
+
+  </ul>
+
+  <p class="note">
+    Microsoft Certification ID: 989197591
+  </p>
+
+  <p class="note">
+    Certification titles and active status should be verified
+    against the official Microsoft Learn and GitHub credential
+    transcripts before submission.
+  </p>
+</section>
+
+<section>
+  <h2>Education &amp; Professional Training</h2>
+
+  <ul>
+    <li>B.Com – Mumbai University</li>
+
+    <li>
+      Advanced Diploma in Computer Hardware &amp; Networking
+      (A+, N+) – Jetking Institute, Mumbai
+    </li>
+
+    <li>
+      MCSE, RHCE – CMS Institute Pvt. Ltd., Mumbai
+    </li>
+
+    <li>
+      Azure, AWS, Microsoft 365, VMware 7,
+      and ITIL v5 training – Apponix Technologies, Bengaluru
+    </li>
+
+    <li>
+      AB-100 – Agentic AI Business Solutions Architect Expert
+      training
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>Career Interests</h2>
+
+  <p>
+    Interested in opportunities involving enterprise Azure
+    architecture, cloud transformation, Azure Landing Zones,
+    cloud networking, infrastructure automation, cloud security,
+    and enterprise infrastructure modernization.
+  </p>
+
+  <p>
+    Open to international opportunities with employer-sponsored
+    visa support and relocation.
+  </p>
+</section>
+
+<footer>
+  Vinayak Sulegai | Senior Azure Cloud Architect
+</footer>
+
+</div>
+</body>
+</html>
