@@ -1,0 +1,50 @@
+Azure Cloud
+ 
+I do not have Azure portal access 
+I do not have Azure Dev Ops access
+I do not want to login to Azure portal  & Azure Dev Ops
+ 
+I have Win 10 22H2 and below Docker installed 
+Engine: 29.9.2
+Buildx: v0.38.1
+Compose: v5.6.1
+Credential Helper: v0.9.12
+Kubernetes: v1.36.1
+
+give me small n8n Github direct link terraform Azure Webapp deployment test Webpage project so I can clone and practice with you
+
+http://localhost:8080/
+
+azure-webapp-demo	f998f8abf337	azure-terraform-webapp-demo:1.0	8080:80	0%
+
+
+PS C:\Users\Pitu\Repo\azure-terraform-webapp> cd terraform-azurerm-linux-webapp                
+PS C:\Users\Pitu\Repo\azure-terraform-webapp\terraform-azurerm-linux-webapp> dir
+
+docker start azure-webapp-demo                             
+azure-webapp-demo
+docker ps
+Up 11 seconds   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   azure-webapp-demo
+docker port azure-webapp-demo
+
+docker start → Power on an existing stopped container.
+docker stop → Stop a running container.
+docker restart → Restart a container.
+docker run → Create and start a new container.
+
+docker start azure-webapp-demo
+docker stop azure-webapp-demo
+docker ps -a
+
+Update your CV
+After modifying index.html:
+docker build --no-cache -t azure-terraform-webapp-demo:1.0 .
+
+Then recreate the container:
+docker rm -f azure-webapp-demo
+docker run -d --name azure-webapp-demo -p 8080:80 azure-terraform-webapp-demo:1.0
+
+
+http://localhost:8080/?utm_source=chatgpt.com
+
+===================================================================================================
