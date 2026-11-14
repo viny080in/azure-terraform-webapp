@@ -1,0 +1,10 @@
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: azure-terraform-webapp-demo:local
+    container_name: azure-webapp-local
+    ports:
+      - "8081:80"
+    restart: unless-stopped
